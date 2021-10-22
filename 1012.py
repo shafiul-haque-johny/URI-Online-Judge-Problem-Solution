@@ -1,0 +1,8 @@
+PI = float(3.14159)
+A, B, C = map(float, input().split())
+p1 = ((1.0/2)*(A*C))
+p2 = PI*(C*C)
+p3 = (((A+B)/2)*C)
+p4 = (B*B)
+p5 = (A*B)
+print("TRIANGULO: %.3lf\nCIRCULO: %.3lf\nTRAPEZIO: %.3lf\nQUADRADO: %.3lf\nRETANGULO: %.3lf" % (p1, p2, p3, p4, p5))
